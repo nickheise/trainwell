@@ -713,6 +713,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('/img/trainwell-bg.svg');
 }
 
+.bg-\[url\(\'img\/trainwell-bg\.svg\'\)\] {
+  background-image: url('img/trainwell-bg.svg');
+}
+
+.bg-\[url\(\'trainwell-bg\.svg\'\)\] {
+  background-image: url('trainwell-bg.svg');
+}
+
 .bg-repeat {
   background-repeat: repeat;
 }
