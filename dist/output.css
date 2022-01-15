@@ -694,6 +694,46 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.selection\:bg-pink-200 *::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 207 232 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-pink-200 *::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 207 232 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#E7FF57\] *::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 255 87 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#E7FF57\] *::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 255 87 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-pink-200::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 207 232 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-pink-200::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 207 232 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#E7FF57\]::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 255 87 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#E7FF57\]::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 255 87 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:mt-8 {
     margin-top: 2rem;
